@@ -1,0 +1,17 @@
+[33mcommit 7d0711ac1a9f33dd7b7bb4e5a95a69ba0daafb79[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Ivan Laver <ereyzer142@gmail.com>
+Date:   Mon Jul 5 20:42:46 2021 +0300
+
+    config
+
+[33mcommit 088e589674a5b2e38b5656d284949d81f0f5b012[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ivan Laver <ereyzer142@gmail.com>
+Date:   Mon Jul 5 18:53:55 2021 +0300
+
+    react start
+
+[33mcommit ab6291903499b6b3c7069084b1b8c8237ef8ecdf[m
+Author: Ivan Laver <ereyzer142@gmail.com>
+Date:   Mon Jul 5 17:07:46 2021 +0300
+
+    add react-app
