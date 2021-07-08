@@ -1,11 +1,22 @@
 import React from 'react';
+import styles from './FriendList.module.css';
 
 function Friend({ name, isOnline, avatar }) {
+  console.log(
+    [styles.status, isOnline ? styles.statusOnline : styles.statusOffline].join(
+      ' ',
+    ),
+  );
   return (
-    <li>
-      <span></span>
-      <img src={avatar} alt={name} width="48" />
-      <p>{name}</p>
+    <li className={styles.item}>
+      <span
+        className={[
+          styles.status,
+          isOnline ? styles.statusOnline : styles.statusOffline,
+        ].join(' ')}
+      ></span>
+      <img className={styles.avatar} src={avatar} alt={name} width="48" />
+      <p className={styles.name}>{name}</p>
     </li>
   );
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import defaultImage from './default.jpg';
-import './profile.scss';
+// import './Profile.module.css';
+import styles from './Profile.module.css';
+
 const Description = ({ name, tag, location, avatar }) => (
-  <div className="description">
-    <img src={avatar} alt={name} className="avatar"></img>
-    <p className="name">{name}</p>
-    <p>@{tag}</p>
-    <p>{location}</p>
+  <div className={styles.description}>
+    <img src={avatar} alt={name} className={styles.avatar}></img>
+    <p className={styles.name}>{name}</p>
+    <p className={styles.tag}>@{tag}</p>
+    <p className={styles.location}>{location}</p>
   </div>
 );
 

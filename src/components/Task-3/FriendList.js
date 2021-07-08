@@ -1,8 +1,10 @@
 import React from 'react';
 import Friend from './Friend';
+import styles from './FriendList.module.css';
+
 function FriendList({ friends }) {
   return (
-    <ul>
+    <ul className={styles['friend-list']}>
       {friends.map(friend => (
         <Friend
           avatar={friend.avatar}

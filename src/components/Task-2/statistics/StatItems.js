@@ -16,4 +16,12 @@ function StatItems({ data }) {
   );
 }
 
+StatItems.defaultProps = {
+  data: [],
+};
+
+StatItems.propTypes = {
+  data: PropTypes.array,
+};
+
 export default StatItems;

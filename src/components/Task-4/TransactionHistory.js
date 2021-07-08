@@ -1,8 +1,9 @@
 import React from 'react';
 import SimpleTransaction from './SimplTransaction';
+import styles from './TransactionHistory.module.css';
 function TransactionHistory({ items }) {
   return (
-    <table>
+    <table className={styles['transaction-history']}>
       <thead>
         <tr>
           <th>Type</th>
