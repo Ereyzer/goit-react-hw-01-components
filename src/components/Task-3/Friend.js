@@ -2,11 +2,6 @@ import React from 'react';
 import styles from './FriendList.module.css';
 
 function Friend({ name, isOnline, avatar }) {
-  console.log(
-    [styles.status, isOnline ? styles.statusOnline : styles.statusOffline].join(
-      ' ',
-    ),
-  );
   return (
     <li className={styles.item}>
       <span
