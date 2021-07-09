@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import defaultImage from './default.jpg';
-// import './Profile.module.css';
 import styles from './Profile.module.css';
 
 const Description = ({ name, tag, location, avatar }) => (

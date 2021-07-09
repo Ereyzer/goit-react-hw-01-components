@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
 const renderColor = () => Math.round(Math.random() * (250 - 0) + 0);
@@ -17,10 +16,5 @@ function StatItem({ label, percentage }) {
     </li>
   );
 }
-
-StatItem.propTypes = {
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
-};
 
 export default StatItem;
