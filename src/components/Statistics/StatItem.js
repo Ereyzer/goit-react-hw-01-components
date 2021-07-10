@@ -1,9 +1,6 @@
 import React from 'react';
 import styles from './Statistics.module.css';
-
-const renderColor = () => Math.round(Math.random() * (250 - 0) + 0);
-const renderRGBColor = callback =>
-  `rgb(${callback()}, ${callback()}, ${callback()})`;
+import { renderColor, renderRGBColor } from '../../helpers/renderColor';
 
 function StatItem({ label, percentage }) {
   return (
